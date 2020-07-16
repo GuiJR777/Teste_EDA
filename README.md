@@ -39,9 +39,9 @@ function remove_repeated(){
         }
     }
 ```
-<br/>
+
 [![Tela da Resposta do teste de estágio Aurum.](https://i.imgur.com/B2HVdnE.png "Tela da Resposta do teste de estágio Aurum.")](https://www.aurum.com.br/ "Tela da Resposta do teste de estágio Aurum.")
-<br/><br/>
+
 ### Guia
 #### teste_estagio_dev.docx
 Arquivo do Word com o enunciado do teste.
@@ -53,3 +53,8 @@ Pasta contendo imagens utilizadas no projeto.
 Pasta contendo o arquivo Javascript com a lógica para as respostas.
 #### Pasta styles
 Pasta contendo o arquivo CSS utilizado para estilizar a página.
+
+---
+ [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilherme-ramires-4480a0160)](https://www.linkedin.com/in/guilherme-ramires-4480a0160/)   [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:guilhermejramires@gmail.com)](mailto:guilhermejramires@gmail.com)
+
+Desenvolvido por Guilherme Jesuino Ramires 
