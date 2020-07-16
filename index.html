@@ -1,0 +1,110 @@
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script type="text/javascript" src="./scripts/main.js"> </script>
+
+    <title>Teste Aurum</title>
+</head>
+
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://www.aurum.com.br/"><img src="./img/Logo.PNG" alt="logo da Aurum"></a>
+            
+        </div>
+    </header>
+
+    <div class="title">
+        <h1>Teste Estágio de Desenvolvimento</h1>
+    </div>
+    <div class="questions">
+        <h2>Atividades</h2>
+        <div class="question">
+            <h3>Questão 1:</h3>
+            <p>
+                Escreva uma função que receba 2 parâmetros, uma String e um Inteiro.
+                Essa função deve ter como retorno outra String.<br/>
+                O objetivo da função é remover os caracteres repetidos consecutivamente e que extrapolam 
+                o limite (valor inteiro) passado como segundo parâmetro, ou seja, se o limite for 2,
+                os caracteres podem ser repetidos no máximo duas vezes. <br/><br/>
+                Exemplos:<br/><br/>
+                   a.  function removeRepeated("xxxyzzaaayy", 1) => "xyzay"<br/>
+                   b.  function removeRepeated("xxxyzzaaayy", 2) => "xxyzzaayy"
+            </p>
+            <h3 id="resposta">Resposta:</h3>
+            <span>Digite a String</span><br/>
+            <input type="text" id="string1"><br/>
+            <span>Digite o Inteiro</span><br/>
+            <input type="number" id="int1"><br/>
+            <button onclick="remove_repeated()">OK</button>
+            <br/><br/>
+            <input type="text" id="output1" readonly placeholder="Resultado">
+            <br/><br/><br/><br/>
+            
+        </div>
+        <div class="question">
+            <h3>Questão 2:</h3>
+            <p>
+                Escreva uma função que receba 2 parâmetros, uma String e um Inteiro.<br/>
+                Essa função deve ter como retorno outra String.<br/>
+                O Objetivo da função é substituir o caracter "?" criando uma repetição do
+                caracter que está antes dele o numero de vezes do parametro Inteiro.<br/> 
+                Caso o caracter "?" seja o primeiro da String fornecida ele deve repetir o último caracter da String.<br/><br/>
+                Exemplos:<br/><br/>
+                a.    function replaceChar("x?yzza?y?", 1) => "xxyzzaayy"<br/>
+                b.    function replaceChar("x?yzza?y?", 2) => "xxxyzzaaayyy"<br/>
+                c.    function replaceChar("?x?yzza?y?", 2) => "yyxxxyzzaaayyy"<br/>
+
+            </p>
+            <h3>Resposta:</h3>
+            <span>Digite a String</span><br/>
+            <input type="text" id="string2"><br/>
+            <span>Digite o Inteiro</span><br/>
+            <input type="number" id="int2"><br/>
+            <button onclick="replace_char()">OK</button>
+            <br/><br/>
+            <input type="text" id="output2" readonly placeholder="Resultado">
+            
+        </div>
+        <div class="question">
+            <h3>Questão 3:</h3>
+            <p>
+                Escreva uma função que receba 2 Strings.Essa função deve ter como retorno um número.<br/>
+                O Objetivo da função é ordenar as 2 strings alfabeticamente e extrair de cada uma a maior e 
+                a menor letra.<br/> 
+                Trasforme essa letra em um número considerando que o Alfabeto é uma sequencia numérica e a letra "a"
+                é igual a 1 a letra "b" é igual a 2 e assim sucessivamente.<br/> 
+                O retorno da função deve ser a soma da multiplicação entre a maior letra da primeira String e a  
+                menor letra da segunda String com a multiplicação entre a maior letra da segunda String e a menor letra da primeira String.<br/><br/>
+
+                retorno =(maiorLetraString1 menorLetraString2 ) + (maiorLetraString2  menorLetraString1)<br/><br/>
+
+                function lettersSum("dacb", "gdab") =>  11
+                function lettersSum("dcb", "gdab") =>  18
+
+
+            </p>
+            <h3>Resposta:</h3>
+            <span>Digite a String 1</span><br/>
+            <input type="text" id="string3.1"><br/>
+            <span>Digite a String 2</span><br/>
+            <input type="text" id="string3.2"><br/>
+            <button onclick="letters_sum()">OK</button>
+            <br/><br/>
+            <input type="text" id="output3" readonly placeholder="Resultado">
+            
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <h3>Atividade desenvolvida por: <a href="https://guijr777.github.io/portfolio/">Guilherme Jesuino Ramires</a></h3>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

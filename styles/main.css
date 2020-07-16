@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root{
+    --bg-color:#14162B;
+    --q-color:#1E2034;
+    --b-color:#008FD5;
+    --b-hover: rgba(0, 142, 213, 0.651);
+    --input-color: #585969;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+body{
+    background-color: var(--bg-color);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;  
+    
+}
+
+header{
+    display: flex;
+}
+
+header .logo{
+    margin-left: 50px;
+}
+.title{
+    text-align: center;
+    
+}
+.title h1{
+    margin: 24px auto;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+}
+.questions h2{
+    margin: 20px auto;
+}
+.question{
+    margin: 24px;
+    padding: 16px;
+    background-color: var(--q-color);
+    border-radius: 8px;
+}
+.question p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 24px 0;
+}
+.question #resposta{
+    margin-bottom: 24px;
+}
+.question span{
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+.question input{
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background-color: var(--input-color);
+    color: #fff;
+    line-height: 26px;
+}
+.question button{
+    height: 24px;
+    width: 96px;
+    background-color: var(--b-color);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: color 400ms;
+}
+.question button:hover{
+    background-color: var(--b-hover);
+    transition: color 400ms;
+}
+.question #output1, #output2, #output3{
+    font-size: 20px;
+    height: 40px;
+    width: 400px;
+    color: #fff;
+}
+footer{
+    margin-top: 100px;
+    height: 48px;
+    width: 100vw;
+    background-color: #0C1317;
+    text-align: center;
+    padding: 24px 0;
+    
+
+}
+footer h3 a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 400ms;
+}
+footer h3 a:hover{
+    color: var(--b-color);
+    transition: color 400ms;
+}
